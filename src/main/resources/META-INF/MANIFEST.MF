@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: MossLib
+Implementation-Version: MossLib
+Implementation-Vendor: MossCG
+Main-Class: org.mossmc.mosscg.MossLib.Main

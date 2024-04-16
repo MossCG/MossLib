@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="MossLibLite">
+    <output-path>$PROJECT_DIR$/out/artifacts/MossLibLite</output-path>
+    <root id="archive" name="MossLibLite.jar">
+      <element id="module-output" name="MossLib" />
+      <element id="directory" name="dependency">
+        <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.78" />
+        <element id="library" level="project" name="Maven: com.github.oshi:oshi-core:6.2.2" />
+        <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+        <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.25" />
+        <element id="library" level="project" name="Maven: net.java.dev.jna:jna:5.12.1" />
+        <element id="library" level="project" name="Maven: net.java.dev.jna:jna-platform:5.12.1" />
+        <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.20.0" />
+        <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.20.0" />
+        <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.36" />
+        <element id="library" level="project" name="Maven: org.xerial:sqlite-jdbc:3.34.0" />
+        <element id="library" level="project" name="Maven: javax.mail:mail:1.4" />
+        <element id="file-copy" path="$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar" />
+      </element>
+    </root>
+  </artifact>
+</component>
