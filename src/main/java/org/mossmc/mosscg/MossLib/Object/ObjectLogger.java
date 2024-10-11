@@ -56,8 +56,14 @@ public class ObjectLogger {
         sendMessage(message, LoggerManager.logLevel.ERROR);
     }
 
-    public void sendAPI(String message) {
-        sendMessage(message, LoggerManager.logLevel.API);
+    public void sendAPI(String message, boolean display) {
+        if (display) {
+            sendMessage(message, LoggerManager.logLevel.API);
+        } else {
+            String prefix = "["+ LoggerManager.logLevel.API +"] ";
+            String time = "["+timeFormat.format(new Date(System.currentTimeMillis()))+"] ";
+            writeMessage(time+prefix+message);
+        }
     }
 
     public void sendCommand(String message) {

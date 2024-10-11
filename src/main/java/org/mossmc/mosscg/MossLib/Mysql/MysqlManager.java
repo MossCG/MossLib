@@ -64,7 +64,7 @@ public class MysqlManager {
         int poolSize = mysqlInfo.poolSize;
         for (int i = 0; i < poolSize; i++) {
             try {
-                Class.forName("com.mysql.cj.jdbc.Driver");
+                Class.forName("com.mysql.jdbc.Driver");
                 Connection connection = DriverManager.getConnection(address,mysqlInfo.username, mysqlInfo.password);
                 connectionPool.add(connection);
                 if (displayLog) logger.sendInfo("已建立Mysql连接#"+i);
